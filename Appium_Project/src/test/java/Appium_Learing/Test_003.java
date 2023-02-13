@@ -1,0 +1,40 @@
+package Appium_Learing;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.AppiumBy;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.WebElement;
+
+public class Test_003 extends Test_Base1 {
+
+	@Test
+	public void DoubleTapEx() throws Exception {
+		driver.findElement(AppiumBy.accessibilityId("Views")).click();
+		driver.findElement(AppiumBy.accessibilityId("Expandable Lists")).click();
+		driver.findElement(AppiumBy.accessibilityId("1. Custom Adapter")).click();
+
+		WebElement peoplesLongPress = driver.findElement(By.xpath("//android.widget.TextView[@text='People Names']"));
+	//	LongPressAction(peoplesLongPress);
+
+		Actions actions = new Actions(driver);
+//		actions.doubleClick(peoplesLongPress).perform();
+		
+		
+		actions.clickAndHold(peoplesLongPress).pause(2000).release().perform();
+		
+//		String Title = driver.findElement(By.xpath("//android.widget.TextView[@text='Sample menu']")).getText();
+//		assertEquals(Title, "Sample menu");
+//		assertTrue(driver.findElement(By.xpath("//android.widget.TextView[@text='Sample menu']")).isDisplayed());
+
+		Thread.sleep(5000);
+	}
+}

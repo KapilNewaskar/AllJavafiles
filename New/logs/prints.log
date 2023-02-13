@@ -1,0 +1,8 @@
+16:29:34.054 [main] INFO  learn.LogTest - On Start: Test001
+16:29:34.143 [main] INFO  learn.LogTest - search1 test case started
+16:29:34.143 [main] ERROR learn.LogTest - The name of the testcase Skipped is :search1
+16:29:34.148 [main] INFO  learn.LogTest - search2 test case started
+16:29:34.148 [main] ERROR learn.LogTest - The name of the testcase Skipped is :search2
+16:29:34.156 [main] INFO  learn.LogTest - search3 test case started
+16:29:34.171 [main] ERROR learn.LogTest - The name of the testcase Skipped is :search3
+16:29:34.187 [main] INFO  learn.LogTest - On Finish: Test001

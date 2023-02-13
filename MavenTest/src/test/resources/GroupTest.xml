@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MavenSuite">
+	<test name="Groups">
+		<groups>
+			<define name="dailybuild">
+				<include name="sanity" />
+				<include name="smoke" />
+			</define>
+			<define name="weeklybuild">
+				<include name="regression" />
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Tests.GroupsTest">
+			</class>
+		</classes>
+	</test>
+</suite>

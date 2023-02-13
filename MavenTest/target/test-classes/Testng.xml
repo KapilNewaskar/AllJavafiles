@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MavenSuite">
+	<parameter name="Browser" value="Edge" />
+	<parameter name="sleepTime" value="3000" />
+	<parameter name="url" value="https://www.facebook.com/" />
+	<parameter name="username" value="Kapil@test.com" />
+	<parameter name="password" value="Kapil@123" />
+	<test name="LoginTest">
+		<classes>
+			<class name="Tests.Test1">
+				<methods>
+					<include name="Launchapp" />
+					<include name="LoginDetails" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

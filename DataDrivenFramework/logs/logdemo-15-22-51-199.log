@@ -1,0 +1,14 @@
+11:28:31 [main] DEBUG com.w2a.base.TestBase - Login Succesfully Executed
+15:17:45 [main] DEBUG com.w2a.base.TestBase - Config file loaded !!!
+15:17:45 [main] DEBUG com.w2a.base.TestBase - OR file loaded !!!
+15:17:50 [main] DEBUG com.w2a.base.TestBase - Chrome Launched !!!
+15:17:53 [main] DEBUG com.w2a.base.TestBase - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+15:17:53 [main] DEBUG com.w2a.base.TestBase - Inside Login Test
+15:17:57 [main] DEBUG com.w2a.base.TestBase - Login Succesfully Executed
+15:17:57 [main] DEBUG com.w2a.base.TestBase - Test execution completed !!!
+15:21:55 [main] DEBUG com.w2a.base.TestBase - Config file loaded !!!
+15:21:55 [main] DEBUG com.w2a.base.TestBase - OR file loaded !!!
+15:22:17 [main] DEBUG com.w2a.base.TestBase - Firefox Launched !!!
+15:22:20 [main] DEBUG com.w2a.base.TestBase - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+15:22:20 [main] DEBUG com.w2a.base.TestBase - Inside Login Test
+15:22:34 [main] DEBUG com.w2a.base.TestBase - Test execution completed !!!

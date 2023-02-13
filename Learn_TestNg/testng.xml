@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<parameter name="sleeptime" value="5000" />
+	<parameter name="radioUrl"
+		value="https://demo.guru99.com/test/radio.html" />
+	<parameter name="url"
+		value="https://chercher.tech/practice/practice-dropdowns-selenium-webdriver" />
+
+	<test name="Test">
+		<parameter name="browsername" value="Edge" />
+		<classes>
+			<class name="NewAutomation.dropdown">
+				<methods>
+
+					<include name="launchapp" />
+					<include name="selectdateandtime" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Test1">
+		<parameter name="browsername" value="Chrome" />
+		<classes>
+			<class name="NewAutomation.dropdown">
+				<methods>
+
+					<include name="radioBtn" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> 

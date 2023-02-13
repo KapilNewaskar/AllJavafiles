@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-10T14:26:52 IST" name="Default suite" finished-at="2023-01-10T14:26:57 IST" duration-ms="4908">
+    <groups>
+    </groups>
+    <test started-at="2023-01-10T14:26:52 IST" name="Default test" finished-at="2023-01-10T14:26:57 IST" duration-ms="4908">
+      <class name="Basics_Project.LibraryApi">
+        <test-method signature="PostBook(java.lang.String,java.lang.String)[pri:0, instance:Basics_Project.LibraryApi@25084a1e]" started-at="2023-01-10T14:26:52 IST" name="PostBook" data-provider="BooksData" finished-at="2023-01-10T14:26:56 IST" duration-ms="3469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[K4ss4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456576]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostBook -->
+        <test-method signature="PostBook(java.lang.String,java.lang.String)[pri:0, instance:Basics_Project.LibraryApi@25084a1e]" started-at="2023-01-10T14:26:56 IST" name="PostBook" data-provider="BooksData" finished-at="2023-01-10T14:26:56 IST" duration-ms="528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[K4asfss4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4565576]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostBook -->
+        <test-method signature="PostBook(java.lang.String,java.lang.String)[pri:0, instance:Basics_Project.LibraryApi@25084a1e]" started-at="2023-01-10T14:26:56 IST" name="PostBook" data-provider="BooksData" finished-at="2023-01-10T14:26:57 IST" duration-ms="397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[K4ss4dsf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4565576]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostBook -->
+        <test-method signature="PostBook(java.lang.String,java.lang.String)[pri:0, instance:Basics_Project.LibraryApi@25084a1e]" started-at="2023-01-10T14:26:57 IST" name="PostBook" data-provider="BooksData" finished-at="2023-01-10T14:26:57 IST" duration-ms="424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[K4hgfss4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4565676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostBook -->
+      </class> <!-- Basics_Project.LibraryApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

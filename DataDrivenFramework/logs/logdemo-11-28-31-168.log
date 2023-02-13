@@ -1,0 +1,15 @@
+11:59:46 [main] DEBUG com.w2a.base.TestBase - Config file loaded !!!
+11:59:46 [main] DEBUG com.w2a.base.TestBase - OR file loaded !!!
+11:59:48 [main] DEBUG com.w2a.base.TestBase - Chrome Launched !!!
+11:59:55 [main] DEBUG com.w2a.base.TestBase - Login Succesfully Executed
+12:04:00 [main] DEBUG com.w2a.base.TestBase - Config file loaded !!!
+12:04:00 [main] DEBUG com.w2a.base.TestBase - OR file loaded !!!
+12:04:02 [main] DEBUG com.w2a.base.TestBase - Chrome Launched !!!
+12:04:08 [main] DEBUG com.w2a.base.TestBase - Login Succesfully Executed
+12:17:10 [main] DEBUG com.w2a.base.TestBase - Config file loaded !!!
+12:17:10 [main] DEBUG com.w2a.base.TestBase - OR file loaded !!!
+12:17:13 [main] DEBUG com.w2a.base.TestBase - Chrome Launched !!!
+12:17:21 [main] DEBUG com.w2a.base.TestBase - Login Succesfully Executed
+11:28:20 [main] DEBUG com.w2a.base.TestBase - Config file loaded !!!
+11:28:20 [main] DEBUG com.w2a.base.TestBase - OR file loaded !!!
+11:28:24 [main] DEBUG com.w2a.base.TestBase - Chrome Launched !!!

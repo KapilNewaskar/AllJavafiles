@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="LoginTest">
+		<classes>
+			<class name="E_commerce_project.Test_001">
+				<methods>
+					<include name="Login" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="InvalidLoginTest">
+		<classes>
+			<class name="E_commerce_project.Test_001">
+				<methods>
+					<include name="InvalidLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

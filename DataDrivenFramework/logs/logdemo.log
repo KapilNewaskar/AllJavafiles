@@ -1,0 +1,5 @@
+15:56:01 [main] DEBUG com.w2a.base.TestBase - OR file loaded !!!
+15:56:03 [main] DEBUG com.w2a.base.TestBase - Chrome Launched !!!
+15:56:06 [main] DEBUG com.w2a.base.TestBase - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+15:56:06 [main] DEBUG com.w2a.base.TestBase - Inside Login Test
+15:56:07 [main] DEBUG com.w2a.base.TestBase - Test execution completed !!!
